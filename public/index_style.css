@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Inconsolata";
+    font-size : 15pt;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+input {
+    font-family: 'Inconsolata';
+    font-size:15pt;
+    background-color: black;
+    border: none;
+    color:white;
+    outline:none;
+}
+
+.showhide {
+    display: none;
+}
+
+#dollar {
+    color: #ffcc00;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
