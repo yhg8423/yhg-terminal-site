@@ -16,6 +16,7 @@ input {
     border: none;
     color:white;
     outline:none;
+    width: 80%;
 }
 
 .showhide {
