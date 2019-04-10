@@ -21,11 +21,12 @@ class Command extends React.Component {
         else if(this.state.command === "who") {
             this.setState({
                 result: ["Hyeonggeun Yun (윤형근)", <br/>, "yhg8423@gmail.com", <br/>, 
-                    <a href='https://www.facebook.com/hyeonggeun.yun.3'>Facebook</a>, " ",
-                    <a href='https://twitter.com/yhg8423'>Twitter</a>, " ",
-                    <a href='https://github.com/yhg8423'>Git</a>, " ",
-                    <a href='https://www.linkedin.com/in/hyeonggeun-yun-b38594160/'>Linkedin</a>, " ",
-                    <a href='https://www.linkedin.com/in/hyeonggeun-yun-b38594160/'>CV(Curriculum Vitae)</a>, " ",
+                    <a href='https://www.facebook.com/hyeonggeun.yun.3'>Facebook</a>, "  / ",
+                    <a href='https://twitter.com/yhg8423'>Twitter</a>, " / ",
+                    <a href="https://www.instagram.com/hg_russ_yun/">Instagram</a>, " / ",
+                    <a href='https://github.com/yhg8423'>Git</a>, " / ",
+                    <a href='https://www.linkedin.com/in/hyeonggeun-yun-b38594160/'>Linkedin</a>, " / ",
+                    <a href='https://www.dropbox.com/s/nykqkr518vx5pox/hyeonggeunyun_CV.pdf?dl=0'>CV(Curriculum Vitae)</a>, " ",
                     <br/>, <br/>,
                     "Hello, I am Hyeonggeun Yun who is an undergraduate student at DGIST. I am in the third year of transdisciplinary studies degree.", <br/>,
                     "I have interested in Human-Computer Interaction (HCI), Artificial Intelligent (AI), Interaction at Scale, and Interactive Web.", <br />,
@@ -42,11 +43,12 @@ class Command extends React.Component {
             this.setState({
                 result: [
                     "Hyeonggeun Yun (윤형근)", <br/>, "yhg8423@gmail.com", <br/>, 
-                    <a href='https://www.facebook.com/hyeonggeun.yun.3'>Facebook</a>, " ",
-                    <a href='https://twitter.com/yhg8423'>Twitter</a>, " ",
-                    <a href='https://twitter.com/yhg8423'>Git</a>, " ", 
-                    <a href='https://www.linkedin.com/in/hyeonggeun-yun-b38594160/'>Linkedin</a>, " ",
-                    <a href='https://www.linkedin.com/in/hyeonggeun-yun-b38594160/'>CV(Curriculum Vitae)</a>, " ",
+                    <a href='https://www.facebook.com/hyeonggeun.yun.3'>Facebook</a>, " / ",
+                    <a href='https://twitter.com/yhg8423'>Twitter</a>, " / ",
+                    <a href="https://www.instagram.com/hg_russ_yun/">Instagram</a>, " / ",
+                    <a href='https://twitter.com/yhg8423'>Git</a>, " / ", 
+                    <a href='https://www.linkedin.com/in/hyeonggeun-yun-b38594160/'>Linkedin</a>, " / ",
+                    <a href='https://www.dropbox.com/s/nykqkr518vx5pox/hyeonggeunyun_CV.pdf?dl=0'>CV(Curriculum Vitae)</a>, " ",
                     <br/>, <br/>,
                     "Hello, I am Hyeonggeun Yun who is an undergraduate student at DGIST. I am in the third year of transdisciplinary studies degree.", <br/>,
                     "I have interested in Human-Computer Interaction (HCI), Artificial Intelligent (AI), Interaction at Scale, and Interactive Web.", <br />,
@@ -74,7 +76,13 @@ class Command extends React.Component {
                     "DGIST Tutoring (디지스트 튜터링) - Tutor", <br/>, <br/>,
                     <b>Software Programming Skills</b>, <br/>,
                     "HTML 5, CSS 3, JavaScript, PHP, Python, C++, C, R, Matlab", <br/>,
-                    "jQuery, Django, ReactJs, Node.js, MySQL, MongoDB, Sqlite"
+                    "jQuery, Django, ReactJs, Node.js, MySQL, MongoDB, Sqlite", <br/>, <br/>,
+                    <b>Media (언론 보도)</b>, <br/>,
+                    <a href="http://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=103&oid=469&aid=0000064052">한국 10대, SNS서 잊힐 권리와 검색 안 될 자유를 찾다 (한국일보)</a>, <br/>,
+                    <a href="http://news.chosun.com/site/data/html_dir/2015/03/29/2015032901897.html">{"상상을 현실로 만드는 소프트웨어... '꿈의 디딤돌'이죠 (조선일보)"}</a>, <br/>,
+                    <a href="http://www.newsis.com/ar_detail/view.html?ar_id=NISX20140704_0013026943&cID=10201&pID=10200">{"'흑역사 지운다'…휘발성 SNS 개발한 17살 동갑내기 (뉴시스)"}</a>, <br/>,
+                    <a href="http://www.hani.co.kr/arti/society/schooling/627624.html">머릿속 아이디어, 포기 않고 10개월 걸려 구현 (한겨레)</a>, <br/>,
+                    <a href="http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0001958424">중학생들이 만든 새로운 SNS '하루' (오마이뉴스)</a>,
                 ]
             })
         }
