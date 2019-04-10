@@ -23,7 +23,7 @@ class Header extends React.Component {
     render() {
         return(
             <div className="header">
-                <span>Welcome to YHG Terminal!</span> <br/>
+                <span>{"Welcome to Hyeonggeun's Terminal!"}</span> <br/>
                 <span>{this.state.date.toLocaleDateString('ko-KR')} {this.state.date.toLocaleTimeString('en-US')}</span>
                 <br/><br/>
                 <span>Documentation: type "help"</span>
