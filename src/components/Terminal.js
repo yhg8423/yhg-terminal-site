@@ -11,7 +11,6 @@ class Terminal extends React.Component {
             result: '',
             periods: 1
         };
-        this.addCommandHandler = this.addCommandHandler.bind(this)
     };
 
     addCommandHandler = () => {
